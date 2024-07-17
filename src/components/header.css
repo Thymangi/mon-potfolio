@@ -1,0 +1,30 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1em;
+  color: white;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.site-header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1em;
+}
+
+.site-header nav ul li {
+  margin: 0;
+}
+
+.site-header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
